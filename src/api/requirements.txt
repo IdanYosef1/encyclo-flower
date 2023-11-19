@@ -6,7 +6,7 @@ google-cloud-storage==2.9.0
 google-cloud-vision==3.4.1
 httpx==0.24.1
 passlib==1.7.4
-Pillow==9.5.0
+Pillow==10.0.1
 prometheus-fastapi-instrumentator==6.0.0
 pydantic[email]==1.10.7
 pymongo[srv]==4.3.3
@@ -17,3 +17,5 @@ requests-toolbelt==1.0.0
 Shapely==2.0.1
 tzlocal==4.3
 uvicorn==0.22.0
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pydantic>=1.10.13 # not directly required, pinned by Snyk to avoid a vulnerability
