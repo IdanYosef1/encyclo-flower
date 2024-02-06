@@ -5,7 +5,7 @@ cachetools==4.2.4
 certifi==2021.10.8
 charset-normalizer==2.0.9
 click==8.0.3
-fastapi==0.70.1
+fastapi==0.109.1
 google-api-core==2.3.2
 google-auth==2.3.3
 google-cloud-vision==2.6.3
