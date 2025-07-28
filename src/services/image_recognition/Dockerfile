@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.14.0rc1
 
 RUN apt -y update
 RUN apt -y install libusb-1.0-0-dev libportaudio2
